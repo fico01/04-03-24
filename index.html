@@ -309,7 +309,7 @@
                  ref={lblSenha}
              >Senha</label>
         );
-        
+     
         const quebra_Linha = <br />;
 
         var formulario = [
@@ -371,15 +371,12 @@
             txt_Senha
            
         ]
-    
-
-
+   
         const container = document.getElementById('mydiv');
         const root = ReactDOM.createRoot(container);
         root.render(
-            <React.StrictMode>  
-        <Formulario />
-        </React.StrictMode>)
+            formulario
+        )
     </script>
 
 </body>
